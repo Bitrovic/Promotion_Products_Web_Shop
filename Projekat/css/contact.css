@@ -1,0 +1,290 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F0F0F0;
+}
+
+
+/* -----------CSS NAV BARA----------- */
+.hederMeni {
+	width: 100%;
+	height: 60px;
+	background: #fdfdff;
+	position: fixed;
+	z-index: 100;
+}
+
+.hederMeni p {
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+.hederMeni p img {
+	width: 98px;
+}
+
+.hederMeni .meni {
+	float: left;
+
+}
+
+.hederMeni .meni li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+.hederMeni .meni li a {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	color: #393d3f;
+	font-size: 13px;
+	padding: 22px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.hederMeni .meni li a:hover{
+	color: #62929e;	
+	text-decoration: none;
+}
+
+.hederMeni .meni li ul {
+	display: none;
+	position: absolute; 	
+	background-color: #fdfdff;
+	padding: 5px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.hederMeni .meni li:hover ul {
+	display: block;
+}
+
+.hederMeni .meni li:hover img{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.hederMeni .meni li ul li {
+	width: 250px;
+	border-radius: 4px;
+}
+
+.hederMeni .meni li ul li a {
+	padding: 8px 14px;
+}
+
+.hederMeni .meni li ul li a:hover {
+	background-color:#f8f8f8;
+}
+
+.hederMeni .meni li img {
+	width: 12px;
+}
+
+.hederMeni .logovanje {
+	overflow: hidden;
+	float:right;
+}
+
+.hederMeni .logovanje li {
+	float: right;
+	list-style: none;
+	position: relative;
+}
+
+.hederMeni .logovanje li a {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	color: #393d3f;
+	font-size: 12px;
+	padding: 22px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.hederMeni .logovanje li a:hover{
+	color: #62929e;	
+	text-decoration: underline;
+}
+
+.hederMeni li a img {
+	width: 25px;
+}
+
+.hederMeni .logovanje li a .korpa_slika:hover {
+	width: 25px;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	width: 30px;
+}
+
+.sadrzaj {
+	padding-top:70px;
+}
+
+/* -----------SLIKA I TEKST----------- */
+.row {
+	padding: 30px;
+}
+
+form {
+	background-color:#393d3f;
+	border-radius: 7px;
+	box-shadow: 0 0 30px #62929e;
+	padding: 20px;
+}
+
+form .form-group input:hover{
+	border:2px solid #62929e;
+}
+
+.page-header-kontakt {
+
+	margin-left: 230px;
+}
+
+.page-header {
+	margin-left: 165px;
+}
+
+h2 {
+	color: #393d3f;
+	margin-bottom: 30px;
+}
+
+form .form-group input:focus{
+	outline: none;
+	box-shadow: 0 0 10px #62929e;
+	color: #fdfdff;
+}
+
+form .form-group textarea:focus{
+	outline: none;
+	box-shadow: 0 0 10px #62929e;
+	color: #fdfdff;
+}
+
+form .form-group label{
+	color: #fdfdff;
+	text-shadow: 0 0 5px #62929e;
+}
+
+form .form-group h1{
+	margin-bottom: 30px;
+}
+
+.row p img {
+	width: 20px;
+}
+
+.row p {
+	color: #393d3f;
+}
+
+.row button img {
+	width: 20px;
+}
+
+.row button {
+	background-color: #62929e;
+	color: #fdfdff;
+	border:1px solid #393d3f;
+}
+
+.row button:hover {
+	background-color:#62929e;
+	color: #fdfdff;
+	border:1px solid #393d3f;
+	box-shadow: 0 0 20px #62929e;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	position: sticky;
+}
+
+iframe {
+	border:2px solid #393d3f ;
+	width: 555px;
+	height: 425px;
+}
+
+blockquote {
+	border-left: 5px solid #ff0000;
+}
+
+
+/* -----------FOOTER----------- */
+
+footer {
+	/*	position: absolute;*/
+	clear: left;
+	padding: 60px 0px;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+	background-color: #393d3f;
+	padding: 40px 0px 60px 0px;
+}
+
+footer .futer {
+	float: left;
+}
+
+footer .futer ul{
+	float: left;
+}
+
+footer .futer ul li {
+	float: left;
+	margin-left: 50px;
+	list-style: none;
+}
+
+footer .futer ul li a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fdfdff;
+}
+
+footer .futerDesno p {
+	float: right;
+	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fdfdff;
+}
+
+footer .futerDesno p img {
+	width: 15px;
+}

@@ -1,0 +1,276 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F8F8F8;
+}
+
+
+/* -----------CSS NAV BARA----------- */
+.hederMeni {
+	width: 100%;
+	height: 60px;
+	background: #fdfdff;
+	position: fixed;
+	z-index: 100;
+}
+
+.hederMeni p {
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+.hederMeni p img {
+	width: 98px;
+}
+
+.hederMeni .meni {
+	float: left;
+
+}
+
+.hederMeni .meni li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+.hederMeni .meni li a {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	color: #393d3f;
+	font-size: 13px;
+	padding: 22px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.hederMeni .meni li a:hover{
+	color: #62929e;	
+	text-decoration: none;
+}
+
+.hederMeni .meni li ul {
+	display: none;
+	position: absolute; 	
+	background-color: #fdfdff;
+	padding: 5px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.hederMeni .meni li:hover ul {
+	display: block;
+}
+
+.hederMeni .meni li:hover img{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.hederMeni .meni li ul li {
+	width: 250px;
+	border-radius: 4px;
+}
+
+.hederMeni .meni li ul li a {
+	padding: 8px 14px;
+}
+
+.hederMeni .meni li ul li a:hover {
+	background-color:#f8f8f8;
+}
+
+.hederMeni .meni li img {
+	width: 12px;
+}
+
+.hederMeni .logovanje {
+	overflow: hidden;
+	float:right;
+}
+
+.hederMeni .logovanje li {
+	float: right;
+	list-style: none;
+	position: relative;
+}
+
+.hederMeni .logovanje li a {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	color: #393d3f;
+	font-size: 12px;
+	padding: 22px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.hederMeni .logovanje li a:hover{
+	color: #62929e;	
+	text-decoration: underline;
+}
+
+.hederMeni li a img {
+	width: 25px;
+}
+
+.hederMeni .logovanje li a .korpa_slika:hover {
+	width: 25px;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	width: 30px;
+}
+
+.sadrzaj {
+	padding-top:70px;
+}
+
+.porukaOPristupu {
+	margin: auto;
+	text-align: center;
+	margin: 155px 0px 200px 0px;
+	text-decoration: none;
+	text-shadow: none;
+	color: black;
+}
+
+/* -----------FORMA ZA LOGOVANJE----------- */
+.logIn {
+	width: 400px;
+	background-color:#393d3f;
+	padding: 20px;
+	border-radius: 7px;
+	margin:auto;
+	margin-bottom: 35px;
+	margin-top: 25px;
+	box-shadow: 0 0 30px #62929e;
+}
+
+.logIn .container {
+	text-align: center;
+}
+
+.logIn .container .levo {
+	text-align: left;
+}
+
+.logIn .container .levo input:hover{
+	border:2px solid #62929e;
+}
+
+.logIn .container .levo input:focus{
+	outline: none;
+	box-shadow: 0 0 10px #62929e;
+	color:black;
+}
+
+.logIn .container .levo input:read-only{
+	background-color: #ccc;
+}
+
+.logIn .container label, h1 {
+	color: #fdfdff;
+	text-shadow: 0 0 5px #62929e;
+}
+
+.logIn .container h1{
+	margin-bottom: 30px;
+}
+
+.logIn .container label a {
+	color: #62929e;
+}
+
+.logIn .container small {
+	color: #fdfdff;
+}
+
+.logIn .container button {
+	background-color:#fdfdff;
+	color: #62929e;
+	border:1px solid #393d3f;
+	border-radius: 5px;
+	padding: 7px;
+	width: 120px;
+}
+
+.logIn .container button:hover {
+	background-color:#62929e;
+	color: #fdfdff;
+	border:1px solid #393d3f;
+	box-shadow: 0 0 20px #62929e;
+}
+
+.logIn .container img {
+	width: 120px;
+	margin: auto;
+}
+
+/* -----------FOOTER----------- */
+
+footer {
+/*	position: absolute;*/
+	padding: 60px 0px;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+	background-color: #393d3f;
+	padding: 40px 0px 60px 0px;
+}
+
+footer .futer {
+	float: left;
+}
+
+footer .futer ul{
+	float: left;
+}
+
+footer .futer ul li {
+	float: left;
+	margin-left: 50px;
+	list-style: none;
+}
+
+footer .futer ul li a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fdfdff;
+}
+
+footer .futerDesno p {
+	float: right;
+	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fdfdff;
+}
+
+footer .futerDesno p img {
+	width: 15px;
+}
